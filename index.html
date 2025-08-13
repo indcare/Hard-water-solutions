@@ -1,166 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hard Water Solutions | Amrut Filtration</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <style>
-    /* Small helper for product image ratio */
-    .img-ratio {
-        aspect-ratio: 16 / 10;
-        object-fit: cover;
-        width: 100%;
-    }
-    .footer-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .social-links a, .contact-info a {
-        color: #fff;
-        text-decoration: none;
-        margin: 0 10px;
-        font-size: 24px;
-    }
-    .social-links a:hover, .contact-info a:hover {
-        color: #ccc;
-    }
-    .contact-info {
-        margin-top: 15px;
-    }
-    .contact-info p {
-        margin: 5px 0;
-        font-size: 16px;
-    }
-    .contact-info a {
-        color: #fff;
-        text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hard Water Solutions | Amrut Filtration</title>
+    <meta name="description" content="Amrut Filtration provides effective hard water solutions for homes and businesses. Explore our range of water softeners, conditioners, and whole-house filtration systems to protect your plumbing and appliances." />
+    <meta name="keywords" content="hard water, water softener, water conditioner, scale guard, amrut filtration, whole house filter, home water treatment, water quality" />
+    <meta property="og:title" content="Amrut Filtration | Hard Water Solutions" />
+    <meta property="og:description" content="Amrut Filtration provides effective hard water solutions for homes and businesses. Explore our range of water softeners, conditioners, and whole-house filtration systems to protect your plumbing and appliances." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.yourwebsite.com/" />
+    <meta property="og:image" content="https://www.yourwebsite.com/savewater-hero.png" />
+    <meta property="og:image:alt" content="A water droplet, representing fresh and clean water." />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <style>
+        /* Small helper for product image ratio */
+        .img-ratio {
+            aspect-ratio: 16 / 10;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .social-links a, .contact-info a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 24px;
+        }
+
+        .social-links a:hover, .contact-info a:hover {
+            color: #ccc;
+        }
+
+        .contact-info {
+            margin-top: 15px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Hero section background image */
+        .hero-bg {
+            background-image: url('image_06ef12.jpg'); /* Please ensure this file is in your project directory */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Optional: adds a parallax-like effect */
+        }
+        
+        /* This style block ensures the products are always in a single row */
+        .products-scroll {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+        .products-scroll > div {
+            flex-shrink: 0;
+            width: 320px; /* Fixed width for consistent card size */
+            scroll-snap-align: start;
+        }
+    </style>
 </head>
 <body class="bg-gray-50 font-sans text-gray-800">
 
-<header class="relative bg-blue-900 text-white p-20 text-center" 
-        style="background-image: url('savewater-1 1.png'); background-size: cover; background-position: center;">
-    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-    <div class="relative z-10 max-w-4xl mx-auto">
-    <h1 class="text-5xl font-extrabold mb-4">Amrut Filtration</h1>
-    <p class="text-2xl">Effective Hard Water Solutions for Your Home & Business</p>
-  </div>
+<nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-gray-800">Amrut Filtration</a>
+        <div class="space-x-4 hidden md:block">
+            <a href="#products" class="text-gray-600 hover:text-blue-500">Products</a>
+            <a href="#whole-house" class="text-gray-600 hover:text-blue-500">Whole House Systems</a>
+            <a href="#contact" class="text-gray-600 hover:text-blue-500">Contact</a>
+        </div>
+        <div class="md:hidden">
+            <button class="text-gray-600 focus:outline-none">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<header class="relative hero-bg text-white p-20 text-center">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 max-w-4xl mx-auto">
+        <h1 class="text-5xl font-extrabold mb-4">Amrut Filtration</h1>
+        <p class="text-2xl">Effective Hard Water Solutions for Your Home & Business</p>
+    </div>
 </header> 
 
 <section class="bg-white py-8">
-  <div class="max-w-6xl mx-auto px-6 text-left">
-    <h2 class="text-3xl font-extrabold text-red-600 leading-tight">
-      RETHINK YOUR WATER.....
-    </h2>
-  </div>
+    <div class="max-w-6xl mx-auto px-6 text-left">
+        <h2 class="text-3xl font-extrabold text-red-600 leading-tight">
+            RETHINK YOUR WATER...
+        </h2>
+    </div>
 </section>
 
-<section id="products" class="max-w-6xl mx-auto px-6 py-12 flex gap-8 overflow-x-auto snap-x snap-mandatory">
+<section id="products" class="max-w-6xl mx-auto px-6 py-12">
+    <div class="products-scroll space-x-6">
+        
+        <div class="bg-white rounded-lg shadow p-6 text-center flex-col flex">
+            <img src="Screenshot 2025-07-23 094252.png" alt="Scale Guard" class="mx-auto mb-4 h-40 object-contain" />
+            <h3 class="text-xl font-semibold mb-2">Scale Guard</h3>
+            <p class="text-gray-600 mb-4 flex-grow">
+                Advanced scale control system protecting your plumbing and appliances from hard water damage.
+            </p>
+            <ul class="text-left text-sm text-gray-700 mb-4 list-disc list-inside">
+                <li>Prevents scale buildup</li>
+                <li>Maintenance-free operation</li>
+                <li>Easy installation</li>
+            </ul>
+            <a href="https://indcare.github.io/SCALE-GUARD/" target="_blank" rel="noopener" class="mt-auto">
+                <button class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800 transition">
+                    Learn More
+                </button>
+            </a>
+        </div>
 
-    <div class="bg-white rounded-lg shadow p-6 text-center flex-shrink-0 w-80 snap-start">
-    <img src="Screenshot 2025-07-23 094252.png" alt="Scale Guard" class="mx-auto mb-4 h-40 object-contain" />
-    <h3 class="text-xl font-semibold mb-2">Scale Guard</h3>
-    <p class="text-gray-600 mb-4">
-      Advanced scale control system protecting your plumbing and appliances from hard water damage.
-    </p>
-    <ul class="text-left text-sm text-gray-700 mb-4 list-disc list-inside">
-      <li>Prevents scale buildup</li>
-      <li>Maintenance-free operation</li>
-      <li>Easy installation</li>
-    </ul>
-    <a href="https://indcare.github.io/SCALE-GUARD/" target="_blank" rel="noopener">
-      <button class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800 transition">
-        Learn More
-      </button>
-    </a>
-  </div>
+        <div class="bg-white rounded-lg shadow p-6 text-center flex-col flex">
+            <img src="water softener.png" alt="Water Softeners" class="mx-auto mb-4 h-40 object-contain" />
+            <h3 class="text-xl font-semibold mb-2">Water Softeners</h3>
+            <p class="text-gray-600 mb-4 flex-grow">
+                Professional-grade softeners designed to treat large volumes of hard water for residential or industrial applications.
+            </p>
+            <ul class="text-left text-sm text-gray-700 mb-4 list-disc list-inside">
+                <li>Removes hardness minerals</li>
+                <li>Extends appliance lifespan</li>
+                <li>Eco-friendly technology</li>
+            </ul>
+            <a href="https://www.amrutfiltration.com/wp-content/uploads/2021/08/Automatic-water-softner.pdf" target="_blank" rel="noopener" class="mt-auto">
+                <button class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Learn More</button>
+            </a>
+        </div>
 
-    <div class="bg-white rounded-lg shadow p-6 text-center flex-shrink-0 w-80 snap-start">
-    <img src="water softener.png" alt="Water Softeners" class="mx-auto mb-4 h-40 object-contain" />
-    <h3 class="text-xl font-semibold mb-2">Water Softeners</h3>
-    <p class="text-gray-600 mb-4">
-      Professional-grade softeners designed to treat large volumes of hard water for residential or industrial applications.
-    </p>
-    <ul class="text-left text-sm text-gray-700 mb-4 list-disc list-inside">
-      <li>Removes hardness minerals</li>
-      <li>Extends appliance lifespan</li>
-      <li>Eco-friendly technology</li>
-    </ul>
-    <a href="https://www.amrutfiltration.com/wp-content/uploads/2021/08/Automatic-water-softner.pdf" target="_blank" rel="noopener">
-      <button class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Learn More</button>
-    </a>
-  </div>
+        <div class="bg-white rounded-lg shadow p-6 text-center flex-col flex">
+            <img src="dip dip new.jpg" alt="Dip Dip Softener" class="mx-auto mb-4 h-40 object-contain" />
+            <h3 class="text-xl font-semibold mb-2">Dip Dip Softener</h3>
+            <p class="text-gray-600 mb-4 flex-grow">
+                Easy-to-use softener for small-scale water softening needs. Ideal for domestic use.
+            </p>
+            <ul class="text-left text-sm text-gray-700 mb-4 list-disc list-inside">
+                <li>Easy to use, maintenance-free and have long life span </li>
+                <li>Prevents scaling and hard water stains on plumbing and sanitary ware</li>
+                <li>No electricity or regeneration required</li>
+                <li>Reliable and reusable </li>
+            </ul>
+            <a href="https://indcare.github.io/Dip-DIp/" target="_blank" rel="noopener" class="mt-auto">
+                <button class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Learn More</button>
+            </a>
+        </div>
 
-    <div class="bg-white rounded-lg shadow p-6 text-center flex-shrink-0 w-80 snap-start">
-    <img src="dip dip.jpg" alt="Dip Dip Softener" class="mx-auto mb-4 h-40 object-contain" />
-    <h3 class="text-xl font-semibold mb-2">Dip Dip Softener</h3>
-    <p class="text-gray-600 mb-4">
-      Easy-to-use softener for small-scale water softening needs. Ideal for domestic use.
-    </p>
-    <ul class="text-left text-sm text-gray-700 mb-4 list-disc list-inside">
-      <li>Easy to use, maintainance free and have long life span </li>
-      <li>Prevents scaling and hard water stains on plumbing and sanitary ware</li>
-      <li>No electricty or regeneration required</li>
-      <li>Reliable and reusable </li>
-    </ul>
-  </div>
+        <div class="bg-white rounded-lg shadow p-6 text-center flex-col flex">
+            <img src="water conditioner.png" alt="Water Conditioners" class="mx-auto mb-4 h-40 object-contain" />
+            <h3 class="text-xl font-semibold mb-2">Water Conditioners</h3>
+            <p class="text-gray-600 mb-4 flex-grow">
+                Innovative conditioners to modify hardness minerals, preventing scale buildup without chemicals.
+            </p>
+            <ul class="text-left text-sm text-gray-700 mb-4 list-disc list-inside">
+                <li>Non-chemical scale prevention</li>
+                <li>Low maintenance</li>
+                <li>Suitable for home & industry</li>
+            </ul>
+            <a href="https://www.amrutfiltration.com/filtration-services/amrut-scale-preventation-system/" target="_blank" rel="noopener" class="mt-auto">
+                <button class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Learn More</button>
+            </a>
+        </div>
 
-    <div class="bg-white rounded-lg shadow p-6 text-center flex-shrink-0 w-80 snap-start">
-    <img src="water conditioner.png" alt="Water Conditioners" class="mx-auto mb-4 h-40 object-contain" />
-    <h3 class="text-xl font-semibold mb-2">Water Conditioners</h3>
-    <p class="text-gray-600 mb-4">
-      Innovative conditioners to modify hardness minerals, preventing scale buildup without chemicals.
-    </p>
-    <ul class="text-left text-sm text-gray-700 mb-4 list-disc list-inside">
-      <li>Non-chemical scale prevention</li>
-      <li>Low maintenance</li>
-      <li>Suitable for home & industry</li>
-    </ul>
-    <a href="https://www.amrutfiltration.com/filtration-services/amrut-scale-preventation-system/" target="_blank" rel="noopener">
-      <button class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Learn More</button>
-    </a>
-  </div>
+        <div class="bg-white rounded-lg shadow p-6 text-center flex-col flex">
+            <img src="SCALE FREE.webp" alt="Scale Free tank" class="mx-auto mb-4 h-40 object-contain" />
+            <h3 class="text-xl font-semibold mb-2">Scale Free tank</h3>
+            <p class="text-gray-600 mb-4 flex-grow">
+                Protect your entire home from scale buildup with our innovative Scale Free tank.
+            </p>
+            <ul class="text-left text-sm text-gray-700 mb-4 list-disc list-inside">
+                <li>Non-chemical scale prevention</li>
+                <li>Low maintenance</li>
+                <li>Suitable for home & industry</li>
+            </ul>
+            <a href="https://www.amrutfiltration.com/filtration-services/amrut-scale-preventation-system/" target="_blank" rel="noopener" class="mt-auto">
+                <button class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Learn More</button>
+            </a>
+        </div>
+        
+    </div>
 </section>
 
-<section class="max-w-4xl mx-auto px-6 py-12 text-center">
-  <h2 class="text-3xl font-bold mb-6">Whole House Water Filtration System</h2>
-
-    <div class="mb-6">
-    <img 
-      src="whote_house_filteration_water BIG.jpg" 
-      alt="Whole House Filtration System" 
-      class="mx-auto rounded-lg shadow-lg w-full"
-    />
-  </div>
- 
-  <p class="text-lg mb-4 font-bold">
-    Do you know every drop of water you use needs to be treated not just for drinking?
-  </p>
-  <p class="text-lg mb-4 font-bold">
-    Have you noticed if your pipes, taps, and showers are getting clogged?
-  </p>
-  <p class="text-lg mb-4 font-bold">
-    Have you noticed white scale or lime scale problems?
-  </p>
-  <p class="text-lg mb-4 font-bold">
-    Have you noticed undesirable taste of chlorine or odour from your water?
-  </p>
-  <p class="text-lg mb-4 font-bold">
-    Have you noticed unusual dry skin and hair texture?
-  </p>
-  <p class="text-2xl font-bold text-red-600 mb-4">
-    If you have experienced all these problems, then your water needs to be treated before use!!!
-  </p>
+<section id="whole-house" class="max-w-4xl mx-auto px-6 py-12 text-center">
+    <h2 class="text-3xl font-bold mb-6">Whole House Water Filtration System</h2>
+    
+    <div class="mb-6">
+        <img 
+            src="whote_house_filteration_water BIG.jpg" 
+            alt="Whole House Filtration System" 
+            class="mx-auto rounded-lg shadow-lg w-full"
+        />
+    </div>
+    
+    <div class="space-y-4">
+        <p class="text-lg font-bold">
+            Do you know every drop of water you use needs to be treated not just for drinking?
+        </p>
+        <p class="text-lg font-bold">
+            Have you noticed if your pipes, taps, and showers are getting clogged?
+        </p>
+        <p class="text-lg font-bold">
+            Have you noticed white scale or lime scale problems?
+        </p>
+        <p class="text-lg font-bold">
+            Have you noticed undesirable taste of chlorine or odour from your water?
+        </p>
+        <p class="text-lg font-bold">
+            Have you noticed unusual dry skin and hair texture?
+        </p>
+    </div>
+    
+    <div class="mt-8 bg-red-100 border-l-4 border-red-500 text-red-700 p-6 rounded-lg">
+        <p class="text-2xl font-bold">
+            If you have experienced all these problems, then your water needs to be treated before use!!!
+        </p>
+    </div>
 </section>
 
-<footer class="bg-gray-800 text-gray-200 py-12">
+<footer id="contact" class="bg-gray-800 text-gray-200 py-12">
     <div class="max-w-6xl mx-auto px-6 text-center flex flex-col items-center">
         <h3 class="text-2xl font-bold mb-4">Get in Touch</h3>
-
         <div class="mb-6 space-y-2">
             <p class="text-lg">
                 <a href="mailto:info@amrutfiltration.com" class="hover:underline">
@@ -172,8 +251,12 @@
                     <i class="fas fa-phone-alt mr-2"></i>+254 711 895 312
                 </a>
             </p>
+            <p class="text-lg">
+                <a href="http://www.amrutfiltration.com" class="hover:underline">
+                    <i class="fas fa-globe mr-2"></i>VISIT US
+                </a>
+            </p>
         </div>
-
         <div class="flex justify-center space-x-4 mb-8">
             <a href="https://www.facebook.com/Amrutfiltration/" target="_blank" rel="noopener" aria-label="Facebook" class="text-white hover:text-blue-500 transition-colors duration-200">
                 <i class="fab fa-facebook text-4xl"></i>
@@ -191,9 +274,9 @@
                 <i class="fab fa-tiktok text-4xl"></i>
             </a>
         </div>
-
         <p class="text-gray-400 text-sm">© Amrut Filtration </p>
     </div>
 </footer>
+
 </body>
 </html>
